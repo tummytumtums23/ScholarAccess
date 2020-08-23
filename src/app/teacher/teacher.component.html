@@ -1,0 +1,20 @@
+<div class="bg">
+  <p style="padding-top: 50px; padding-left: 38%; font-size: 50px; font-weight: bold; color:white; text-shadow: 2px 2px black;">Welcome Kumar</p>
+<div style="padding-left: 100px; padding-right: 100px; padding-bottom: 0px; padding-top: 100px; opacity: 1; box-sizing: border-box;">
+  <mat-card style="height: 100%; box-sizing: border-box; padding:0">
+    <app-file-explorer
+      [fileElements]="fileElements | async"
+      [path]="currentPath"
+      [canNavigateUp]="canNavigateUp"
+      (folderAdded)="addFolder($event)"
+      (elementRemoved)="removeElement($event)"
+      (navigatedDown)="navigateToFolder($event)"
+      (navigatedUp)="navigateUp()"
+      (elementRenamed)="renameElement($event)"
+      (elementMoved)="moveElement($event)"
+    >
+    </app-file-explorer>
+  </mat-card>
+</div>
+
+</div>

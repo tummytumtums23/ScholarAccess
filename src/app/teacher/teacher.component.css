@@ -1,0 +1,11 @@
+
+.bg {
+  /* The image used */
+  background-image: url("src/assets/teacherbackground.jpg");
+  /* Full height */
+  height: 82.3%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

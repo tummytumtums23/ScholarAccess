@@ -1,0 +1,21 @@
+mat-icon mat-primary{
+	color: orange;
+}
+
+.mat-icon.mat-primary {
+    color: yellow;
+}
+
+.file-or-folder-icon {
+	color: orange;
+}
+.bg {
+  /* The image used */
+  background-image: url("src/assets/studentbackground.jpg");
+  /* Full height */
+  height: 82.3%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
