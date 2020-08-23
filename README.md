@@ -1,27 +1,18 @@
-# Share
+ScholarAccess is a website where teachers can upload assignment in an orderly manner so that their students can access them with ease. ScholarAccess knocks down the walls created by distance learning and assures that each student recieves theirs assignments on time. ScholarAccess also removes all other excess information pertaining to school and just helps the student focus on the work they've been assigned.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
+Technology Stack Used in this projec:
+-Angular (For the front end)
+-Node (To create services)
+-MySQL (Will be used for storing data)
+-AWS (When deploying this, we plan on deploying it in the cloud to make file sharing easier)
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+How to use:
+Teachers can login with their own credentials.
+  Teachers can add students based upon the enrollment of students in their school.
+  Teachers can share necessary files with them using this website.
+  Teacherss have ability to directly email students from the web.
+ 
+Students will login with their school credentials.
+  Students can access their assignments for their respective subjective and the respective date using our website.
+  Students can add new folders for better organization
+  Students have ability to directly email teachers from the web.
